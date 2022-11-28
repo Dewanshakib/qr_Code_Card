@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero{
+    background: #cfdee7;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    width: 270px;
+    height: 450px;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #ffff;
+    text-align: center;
+}
+.img{
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.hero h2{
+    font-size: 20px;
+    line-height: 1.4em;
+    font-weight: bolder;
+    width: 90%;
+    margin: 5px auto;
+}
+.hero p{
+    font-size: 14px;
+    font-weight: 400;
+    width: 90%;
+    margin: 5px auto;
+    width: 90%;
+    margin: 14px auto; 
+}
+@media screen and (max-width:375px) {
+    .hero{
+        background: #cfdee7;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .card{
+        width: 338px;
+        height: 600px;
+        border: none;
+        border-radius: 14px;
+        overflow: hidden;
+        background: #ffff;
+        text-align: center;
+    }
+    .img{
+        width: 320px;
+        height: 320px;
+        margin: 10px 8px;
+        border-radius: 10px;
+    }
+    .hero h2{
+        font-size: 26px;
+        line-height: 1.4em;
+        font-weight: bold;
+        width: 325px;
+        margin: 10px auto;
+    }
+    .hero p{
+        font-size: 17px;
+        font-weight: 400;
+        width: 90%;
+        margin: 5px auto;
+        width: 90%;
+        margin: 30px auto; 
+    }
+}
